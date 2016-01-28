@@ -1,0 +1,245 @@
+@media screen and (max-width: 800px)
+{
+  /* propriétés pour téléphone */
+  .container-fluid {
+    width:100%;
+    overflow: hidden;
+  }
+
+  .header {
+    height:150px;
+    background-color:#7fdd4c;
+    text-shadow: 2px 2px 10px gray;
+    border: 4px solid white;
+    border-left: none;
+    border-right: none;
+  }
+
+  .photo {
+    width:80px;
+    height:80px;
+    display: block;
+    margin:auto;
+    margin-top:15px;
+    margin-bottom:35px;
+  }
+
+  .not_mobile {
+    display: none;
+  }
+
+  .c {
+    font-size: 110px;
+    margin-left:-150px;
+  }
+
+  .v {
+    font-size:40px;
+    position: absolute;
+    top:53px;
+    left:-115px;
+  }
+
+  .name p {
+    font-family: "BebasNeueRegular",Arial,sans-serif;
+    color:white;
+    font-weight:bolder;
+    font-size: 30px;
+    margin-left:270px;
+  }
+
+  .name {
+    margin-top:-125px;
+  }
+
+  #work, #school {
+    height: 300px;
+    margin-left:0px;
+  }
+
+  #work p {
+    color:grey;
+    font-weight: bold;
+    font-size:18px;
+    text-align: center;
+  }
+
+  .stage, .stage1, .bac, .bac1 {
+    font-size:12px;
+    margin-left:30px;
+  }
+
+  .decathlon, .lycee, .fac {
+    display: block;
+    margin-left:95px;
+  }
+
+  #school p {
+    font-size:18px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .date {
+    font-size:12px;
+    /*text-align: center;*/
+    width:100%;
+    margin-left: 5%;
+  }
+
+  .date span {
+    font-size:12px;
+  }
+
+  .transition {
+    width:150%;
+    margin-top:-330px;
+    height: 3px;
+    background: #7FDD4C none repeat;
+    color:white;
+    border-style: none solid;
+    margin-left:-50px;
+    margin-bottom:50px;
+  }
+
+  .transition2 {
+    width:170%;
+    margin-top:-350px;
+  }
+
+  #skills {
+    margin-left: 0;
+    margin-top:430px;
+  }
+
+  #skills p {
+    color:grey;
+    font-weight: bold;
+    font-size:18px;
+    text-align: center;
+  }
+
+  .progress {
+    width:100%;
+    background-color: #ccc;
+  }
+
+  .haut {
+    font-size: 12px;
+    margin-left: 180px;
+  }
+
+  .pull-left {
+    margin-left: 180px;
+  }
+
+  footer p {
+    margin-left: 0;
+    font-weight: bold;
+    color:white;
+    font-size:10px;
+  }
+
+  footer {
+    /*width:500px;*/
+    height: 75px;
+    background-color:#444;
+    margin-top: -30px;
+    border-top: solid #2f2f2f 3px;
+    border-bottom :solid #2f2f2f 4px;
+    width:1320px;
+    margin-left:-190px;
+  }
+
+  footer img {
+    margin-right:0;
+    margin-top:0;
+  }
+
+  footer img {
+    margin:15px;
+  }
+
+  .github {
+    margin-top: 16px;
+    margin-left:-10px;
+  }
+
+  .contact {
+    font-size: 13px;
+    text-align: left;
+    color: grey;
+    font-weight: bold;
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  #contactez_moi {
+    height:150px;
+    margin-top:80px;
+    border: 2px solid #7FDD4C;
+    margin-bottom:40px;
+    padding-left:22px;
+    padding-top: 18px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 980px)
+{
+  .not_mobile {
+    display: none;
+  }
+
+  header {
+    height:200px;
+  }
+
+  .name {
+    margin-top:-95px;
+    margin-left: 280px;
+  }
+
+  .container-fluid {
+    width:100%;
+    overflow: hidden;
+  }
+
+  .transition {
+    width:150%;
+  }
+
+  .transition2 {
+    width:150%;
+  }
+
+  .contact {
+    font-size: 13px;
+    text-align: left;
+    color: grey;
+    font-weight: bold;
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  #contactez_moi {
+    height:150px;
+    margin-top:80px;
+    border-top: 2px solid #7FDD4C;
+    margin-bottom:40px;
+    padding-left:35%;
+    padding-top: 18px;
+  }
+
+  footer {
+    margin-top:-30px;
+  }
+}
+
+@media screen and (min-width: 1024px)
+{
+  /* propriétés pour pc */
+  .not_desktop {
+    display: none;
+  }
+
+}
