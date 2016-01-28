@@ -165,6 +165,10 @@
     margin-left:-10px;
   }
 
+  .contact p a {
+    color:grey;
+  }
+  
   .contact {
     font-size: 13px;
     text-align: left;
