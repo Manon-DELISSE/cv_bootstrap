@@ -5,6 +5,10 @@ body {
   /*overflow: hidden;*/
 }
 
+.container-fluid {
+  overflow: hidden;
+}
+
 .header {
   width:1353px;
   /*height:150px;*/
@@ -139,7 +143,7 @@ body {
   margin-right: 50px;
   font-size:15px;
   margin-top:43px;
-  width: 673px;
+  width: 100%;
 }
 
 .stage, .stage1, .bac, .bac1 {
@@ -153,7 +157,7 @@ a {
 }
 
 #school {
-  width:400px;
+  /*width:400px;*/
   margin-left: 190px;
   font-weight: bold;
   color:CaptionText;
@@ -205,7 +209,7 @@ a {
 }
 
 .transition {
-  width:87%;
+  width:120%;
   margin-top:-290px;
     margin-left:-100px;
   height: 3px;
@@ -217,7 +221,7 @@ a {
 .transition2 {
   width:150%;
   margin-top:-315px;
-  margin-left:-100px;
+  margin-left:-190px;
   height: 3px;
   background: #7FDD4C none repeat;
   border-style: none solid;
